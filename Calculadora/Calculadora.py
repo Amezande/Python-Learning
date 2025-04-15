@@ -16,7 +16,10 @@ def mult(n1,n2):
 
 def div(n1,n2):
     d=n1/n2;
-    print (d,"\n")
+    if d == 0: 
+        print ("Error, op no valida")
+    else: 
+        print(d,"\n")
 
 def menu ():
     print("----Calculadora----")
